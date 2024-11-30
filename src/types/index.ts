@@ -13,4 +13,6 @@ export interface IPizzaDataItem {
     imgSrc: string;
     id: number;
     title: string;
+    price: number;
+    desc: string;
 }

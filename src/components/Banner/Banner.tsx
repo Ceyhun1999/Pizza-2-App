@@ -1,19 +1,7 @@
-import bannerSrc from "assets/images/pizzaBanner.webp";
-import { useEffect, useState } from "react";
-import { IPizzaDataItem } from "types/index";
-
-const Banner = () => {
-    const [pizzaData, setPizzaData] = useState<IPizzaDataItem[]>([]);
-
-
-    useEffect(() => {
-        
-    }, [])
-
-
+const Banner = ({ bannerSrc }: { bannerSrc: string }) => {
     return (
-        <div className="m-10">
-            <img className="rounded-xl" src={bannerSrc} alt="" />
+        <div className="my-10">
+            <img className="rounded-xl w-full object-cover" src={bannerSrc} alt="" />
         </div>
     );
 };

@@ -3,6 +3,9 @@ import Skeleton from "components/Skeleton/Skeleton";
 import { useEffect, useState } from "react";
 import { ICategoryMenuItem } from "types/index";
 
+function delay(ms: number) {
+    return new Promise((resolve) => setTimeout(resolve, ms));
+}
 
 const CategoryMenu = () => {
     const [categoryData, setCategoryData] = useState<ICategoryMenuItem[]>([]);
@@ -12,8 +15,8 @@ const CategoryMenu = () => {
         const fetchData = async () => {
             try {
                 setLoading(true);
-                // Искусственная задержка в 2 секунды
-              
+                await delay(2000); // Искусственная задержка в 2 секунды
+
                 const response = await fetch("http://localhost:3000/categoryMenuData");
                 if (!response.ok) {
                     throw new Error("Network response was not ok");
@@ -34,7 +37,7 @@ const CategoryMenu = () => {
             <div className="container">
                 <div className="flex justify-center">
                     {loading
-                        ? Array.from({ length: 7 }, (_, index) => index + 1).map((_, index) => <Skeleton key={index} />)
+                        ? Array.from({ length: 7 }, (_, index) => index + 1).map((_, index) => <Skeleton width="96px" height="96px" key={index} />)
                         : categoryData.map((categoryItem) => {
                               return <CategoryMenuItem key={categoryItem.id} {...categoryItem} />;
                           })}

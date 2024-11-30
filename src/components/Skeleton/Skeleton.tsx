@@ -1,9 +1,15 @@
 import "./style.css";
 
-const Skeleton = () => {
+const Skeleton = ({ width, height }: { width: string; height: string }) => {
     return (
         <div className="flex flex-col gap-3 py-5 px-8 ">
-            <div className="item w-24 h-24"></div>
+            <div
+                style={{
+                    width: width,
+                    height: height,
+                }}
+                className="item"
+            ></div>
         </div>
     );
 };
