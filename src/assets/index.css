@@ -1,0 +1,122 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Customize the entire scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+    /* Adjust the width of the scrollbar */
+    height: 8px;
+    /* Adjust the height for horizontal scrollbar */
+}
+
+/* Customize the track (background) of the scrollbar */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    /* Light gray background */
+    border-radius: 10px;
+    /* Rounded corners */
+}
+
+/* Customize the thumb (the draggable part of the scrollbar) */
+::-webkit-scrollbar-thumb {
+    background: #b70d0d;
+    /* Default color for the thumb */
+    border-radius: 10px;
+    /* Rounded corners */
+}
+
+/* Change the thumb color on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+    /* Darker color when hovering */
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body,
+div,
+span,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+pre,
+a,
+code,
+img,
+sub,
+sup,
+b,
+u,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figure,
+figcaption,
+footer,
+header,
+main,
+menu,
+nav,
+section,
+summary {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.container,
+.container-fluid {
+    max-width: 1100px;
+    padding: 0 20px;
+    margin: auto;
+}
+
+.container-fluid {
+    max-width: 1450px;
+}

@@ -1,0 +1,96 @@
+{
+    "categoryMenuData": [
+        {
+            "imgSrc": "/src/assets/images/pizzaCat.webp",
+            "id": 1,
+            "title": "Pizza"
+        },
+        {
+            "imgSrc": "/src/assets/images/pastaCat.webp",
+            "id": 2,
+            "title": "Pasta"
+        },
+        {
+            "imgSrc": "/src/assets/images/saladsCat.webp",
+            "id": 3,
+            "title": "Salads"
+        },
+        {
+            "imgSrc": "/src/assets/images/sidesCat.webp",
+            "id": 4,
+            "title": "Sides"
+        },
+        {
+            "imgSrc": "/src/assets/images/desertsCat.webp",
+            "id": 5,
+            "title": "Desserts"
+        },
+        {
+            "imgSrc": "/src/assets/images/dippingCat.webp",
+            "id": 6,
+            "title": "Dipping Sauce"
+        },
+        {
+            "imgSrc": "/src/assets/images/beveragesCat.webp",
+            "id": 7,
+            "title": "Chilled Beverages"
+        }
+    ],
+    "pizzaData": [
+        {
+            "title": "Margherita ",
+            "desc": "Fresh Mozzarella, Housemade Italian Tomato Sauce, Drizzle of Extra Virgin Olive Oil, Greated Parmesan And Cooked With Fresh Basil Leaves",
+            "price": 49,
+            "imgSrc": "/src/assets/pizza/pizza1.webp"
+        },
+
+        {
+            "title": "Hawaiian Pizza",
+            "desc": "Housemade Italian Tomato Sauce, Mozzarella, Provolone, Smoked Turkey Ham, Sprinkle of",
+            "price": 52,
+            "imgSrc": "/src/assets/pizza/pizza2.webp"
+        },
+
+        {
+            "title": "BBQ Chicken Pizza",
+            "desc": "BBQ Sauce, Mozzarella, Provolone Cheese, Chicken, Red Onion And Fresh Cilantro.",
+            "price": 75,
+            "imgSrc": "/src/assets/pizza/pizza3.webp"
+        },
+
+        {
+            "title": "Pepperoni Pizza ",
+            "desc": "Best Beef Pepperoni, Cheese Blend And Housemade Italian Tomato Sauce Seasoned With Fresh Oregano.",
+            "price": 70,
+            "imgSrc": "/src/assets/pizza/pizza4.webp"
+        },
+
+        {
+            "title": "Margherita ",
+            "desc": "Fresh Mozzarella, Housemade Italian Tomato Sauce, Drizzle of Extra Virgin Olive Oil, Greated Parmesan And Cooked With Fresh Basil Leaves",
+            "price": 49,
+            "imgSrc": "/src/assets/pizza/pizza1.webp"
+        },
+
+        {
+            "title": "Margherita ",
+            "desc": "Fresh Mozzarella, Housemade Italian Tomato Sauce, Drizzle of Extra Virgin Olive Oil, Greated Parmesan And Cooked With Fresh Basil Leaves",
+            "price": 49,
+            "imgSrc": "/src/assets/pizza/pizza1.webp"
+        },
+
+        {
+            "title": "Margherita ",
+            "desc": "Fresh Mozzarella, Housemade Italian Tomato Sauce, Drizzle of Extra Virgin Olive Oil, Greated Parmesan And Cooked With Fresh Basil Leaves",
+            "price": 49,
+            "imgSrc": "/src/assets/pizza/pizza1.webp"
+        },
+
+        {
+            "title": "Margherita ",
+            "desc": "Fresh Mozzarella, Housemade Italian Tomato Sauce, Drizzle of Extra Virgin Olive Oil, Greated Parmesan And Cooked With Fresh Basil Leaves",
+            "price": 49,
+            "imgSrc": "/src/assets/pizza/pizza1.webp"
+        }
+    ]
+}
